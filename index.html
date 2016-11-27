@@ -1,3 +1,75 @@
+<!DOCTYPE HTML>
 <html>
-	<title>hello</title>
+
+<head>
+  <title>XuXie's Website</title>
+  <meta name="description" content="XuXie website VCLA" />
+  <meta name="keywords" content="Home,AboutMe,Publications,Projects,Contact" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+</head>
+
+<body>
+  <div id="main">
+    <header>
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="index.html">Welcome to<span class="logo_colour">My Zone</span></a></h1>
+        </div>
+        <p style="float: right; padding-top: 65px;"><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
+      </div>
+      <nav>
+        <ul class="sf-menu" id="nav">
+          <li class="selected"><a href="index.html">Home</a></li>
+          <li><a href="tmp.html">About Me</a></li>
+          <li><a href="tmp.html">Publications</a></li>
+          <li><a href="tmp.html">Projects</a>
+            <ul>
+                <li><a href="tmp.html"># One</a></li>
+                <li><a href="tmp.html"># Two</a></li>
+                <li><a href="tmp.html"># Three</a></li>
+                <li><a href="tmp.html"># Four</a></li>
+                <li><a href="tmp.html"># Five</a></li>
+            </ul>
+          </li>
+          <li><a href="tmp.html">Contact Me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="site_content">
+      <div id="sidebar_container">
+        <div class="gallery">
+          <ul class="images">
+            <li class="show"><img width="450" height="450" src="images/1.jpg" alt="photo_one" /></li>
+            <li><img width="450" height="450" src="images/2.jpg" alt="photo_two" /></li>
+          </ul>
+        </div>
+      </div>
+      <div id="content">
+        <h1>Welcome to Xu Xie's homepage</h1>
+	<p>My name is XuXie, a second year master student at <a href="http://vcla.stat.ucla.edu">Center for Vision Cognition Learning and Autonomy</a>, UCLA. My research interests fall on the intercourse between Robotics and Computer Vision.</p>
+	<p>Currently I'm working on the project of <a href="https://xiaozhuchacha.github.io/projects/tacglove/index.html">Tactile Gloves for Learning Robot Manipulations</a> with <a href="http://web.cs.ucla.edu/~mmillar/info.shtml">Matt Millar</a>, <a href="https://xiaozhuchacha.github.io">Yixin Zhu</a> and <a href="https://www-robotics.jpl.nasa.gov/people/Brandon_Rothrock/">Brandon Rothrock</a></p>
+	<!--<h3>Browser Compatibility</h3>
+	<p>This template has been tested in the following browsers: Internet Explorer 9, FireFox 24, Google Chrome 31.</p>-->
+      </div>
+    </div>
+    <footer>
+    <p><a href="index.html">Xu Xie</a> | <a href="http://vcla.stat.ucla.edu/Simplex/Welcome.html">SIMPLEX</a> | <a href="http://vcla.stat.ucla.edu">VCLA</a></p>
+    </footer>
+  </div>
+  <p>&nbsp;</p>
+  <!-- javascript at the bottom for fast page loading -->
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
+  <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
+  <script type="text/javascript" src="js/image_fade.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+      $('ul.sf-menu').sooperfish();
+    });
+  </script>
+</body>
 </html>
