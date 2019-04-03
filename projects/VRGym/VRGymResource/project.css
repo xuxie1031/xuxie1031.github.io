@@ -1,0 +1,63 @@
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a:focus, a:hover {
+    color: #337ab7;
+    text-decoration: underline;
+}
+
+a.hover {
+    text-decoration: none;
+}
+
+a.hover:hover {
+    text-decoration: underline;
+}
+
+.bibtax { 
+    padding-left: 2em; 
+    text-indent: -2em;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+body,td,th {
+    font-family: Lora;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+papertitle {
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+.un {
+    font-family: Lora;
+    font-size: 25px;
+    text-align: center;
+    font-weight:800;
+}
+
+strong {
+    font-family: Lora;
+    font-size: 18px;
+    font-weight: 800
+}
+
+heading {
+    font-family: Lora;
+    color: #C0392B; /*#EB6400;*/
+    font-size: 22px;
+    font-weight: bold;
+}
