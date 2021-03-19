@@ -1,0 +1,168 @@
+
+<!-- VRGym Project Page -->
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Congestion-aware Multi-agent Trajectory Prediction for Collision Avoidance</title>
+    
+    <link href="./GTAResource/css" rel="stylesheet" type="text/css">
+    <link href="./GTAResource/css(1)" rel="stylesheet" type="text/css">
+    <link href="./GTAResource/css(2)" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./GTAResource/project.css" "="">
+</head>
+
+<body data-gr-c-s-loaded="true">
+
+<div id="Banner">
+    <div height="80" id="header" style="background-color:#FFFFFF; color: #FFFFFF">
+        <center>
+            <table width="1200" height="80" border="0">
+                <tbody><tr>
+                    <td halign="center">
+                        <p class="un">Congestion-aware Multi-agent Trajectory Prediction for Collision Avoidance
+                        </p>
+                        <hr>
+                    </td>
+                </tr>
+            </tbody></table>
+        </center>
+    </div>
+</div>
+
+<div id="main" style="padding-bottom:1em; padding-top: 2em; width: 70em; max-width: 70em; margin-left: auto; margin-right: auto;">
+    <center>
+        <img src="./GTAResource/architecture.pdf" style="width: 100%;">
+    </center>
+    <br>
+    <heading>
+        Abstract
+    </heading>
+    <p>
+        Predicting agents’ future trajectories plays a cru- cial role in modern AI systems, yet it is challenging due to in- tricate interactions exhibited in multi-agent systems, especially when it comes to collision avoidance. To address this challenge, we propose to learn congestion patterns as contextual cues explicitly and devise a novel “Sense–Learn–Reason–Predict” framework by exploiting advantages of three different doctrines of thought, which yields the following desirable benefits: (i) Representing congestion as contextual cues via latent factors subsumes the concept of social force commonly used in physics- based approaches and implicitly encodes the distance as a cost, similar to the way a planning-based method models the environment. (ii) By decomposing the learning phases into two stages, a “student” can learn contextual cues from a “teacher” while generating collision-free trajectories. To make the framework computationally tractable, we formulate it as an optimization problem and derive an upper bound by leveraging the variational parametrization. In experiments, we demon- strate that the proposed model is able to generate collision- free trajectory predictions in a synthetic dataset designed for collision avoidance evaluation and remains competitive on the commonly used NGSIM US-101 highway dataset.
+    </p>
+</div>
+
+<div id="main" style="padding-bottom:0em; padding-top: 0em; width: 70em; max-width: 70em; margin-left: auto; margin-right: auto;">
+    <heading>
+        Paper
+    </heading>
+    <p>
+        <papertitle>Congestion-aware Multi-agent Trajectory Prediction for Collision Avoidance</papertitle><br>
+                    Xu Xie, Chi Zhang, Yixin Zhu, Ying Nian Wu, Song-Chun Zhu<br>
+                    International Conference on Robotics and Autonomy (ICRA), 2021<br>
+                    <a href="./GTAResource/ICRA21_GTA_Trajectory_Prediction.pdf">Paper</a> /
+                    <a href="https://vimeo.com/525104854">Demo</a>
+    </p>
+    <p>
+        </p><center>
+            <a href="./GTAResource/ICRA21_GTA_Trajectory_Prediction.pdf"><img src="./GTAResource/GTA_thumbnail.png" style="width: 100%;"></a>
+        </center>
+    <p></p>
+</div>
+
+<div id="main" style="padding-bottom:0em; padding-top: 2em; width: 70em; max-width: 70em; margin-left: auto; margin-right: auto; align-content: center">
+	<heading>
+        Team
+    </heading>
+	<div style="text-align: center; width: 100%; padding-top: 1em">
+		<div style="display: inline-block; width: 180px;">
+			<a href="./">
+				<img src="./GTAResource/xxie.jpg" alt="" style="border-radius: 50%; width:150px;">
+				<p>Xu Xie<sup>1</sup></p>
+			</a>
+        </div>
+        <div style="display: inline-block; width: 180px;">
+			<a href="http://wellyzhang.github.io"><img src="./GTAResource/czhang.jpg" alt="" style="border-radius: 50%; width:150px;">
+			    <p>Chi Zhang<sup>1</sup></p>
+			</a>
+        </div>
+        <div style="display: inline-block; width: 180px;">
+			<a href="https://yzhu.io"><img src="./GTAResource/yzhu.jpg" alt="" style="border-radius: 50%; width:150px;">
+			    <p>Yixin Zhu<sup>1</sup></p>
+			</a>
+		</div>
+        <div style="display: inline-block; width: 180px;">
+            <a href="http://www.stat.ucla.edu/~ywu/"><img src="./GTAResource/ynwu.jpg" alt="" style="border-radius: 50%; width:150px;">
+                <p>Ying Nian Wu<sup>1</sup></p>
+            </a>
+        </div>
+        <div style="display: inline-block; width: 180px;">
+            <a href="http://www.stat.ucla.edu/~sczhu/"><img src="./GTAResource/Zhu_UCLA.jpg" alt="" style="border-radius: 50%; width:150px;">
+                <p>Song-Chun Zhu<sup>1</sup></p>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="main" style="padding-bottom:1em; padding-top: 0em; width: 80em; max-width: 70em; margin-left: auto; margin-right: auto;">
+    <heading>
+        Features
+    </heading>
+    <div style="text-align: center; width: 100%; padding-top: 1em">
+        <div style="display: inline-block; width: 500px;">
+            <img src="./GTAResource/scenario1.mp4" alt="" style="width:480px">
+        </div>
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/glove.gif" alt="" style="width:480px">
+        </div>
+    </div>
+    <div style="text-align: center; width: 100%; padding-top: 1em">
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/manipulation1.gif" alt="" style="width:480px">
+        </div>
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/manipulation2.gif" alt="" style="width:480px">
+        </div>
+    </div>
+    <div style="text-align: center; width: 100%; padding-top: 1em">
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/logging.gif" alt="" style="width:480px">
+        </div>
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/bridge.gif" alt="" style="width:480px">
+        </div>
+    </div>
+    <div style="text-align: center; width: 100%; padding-top: 1em">
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/ho.gif" alt="" style="width:480px">
+        </div>
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/irl.gif" alt="" style="width:480px">
+        </div>
+    </div>
+    <div style="text-align: center; width: 100%; padding-top: 1em">
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/coffee.gif" alt="" style="width:480px">
+        </div>
+        <div style="display: inline-block; width: 500px;">
+            <img src="./VRGymResource/rl.gif" alt="" style="width:480px">
+        </div>
+    </div>
+</div>
+
+<div id="main" style="padding-bottom:1em; padding-top: 0em; width: 80em; max-width: 70em; margin-left: auto; margin-right: auto;">
+    <heading>
+        Code
+    </heading>
+    <p>
+        <!-- need to be replaced -->
+        View on <a href="https://github.com/xuxie1031/CollisionFreeMultiAgentTrajectoryPrediciton">Github</a>
+    </p>
+</div>
+
+<div id="main" style="padding-bottom:1em; padding-top: 0em; width: 80em; max-width: 70em; margin-left: auto; margin-right: auto;">
+    <heading>
+        Bibtex
+    </heading>
+    <p class="bibtax">
+        @inproceedings{xie2019vrgym,
+        <br>author={Xie, Xu and Liu, Hangxin and Zhang, Zhenliang and Qiu, Yuxing and Gao, Feng and Qi, Siyuan and Zhu, Yixin and Zhu, Song-Chun},
+        <br>title={VRGym: A Virtual Testbed for Physical and Interactive AI},
+        <br>booktitle={Proceedings of the ACM SIGAI},
+        <br>year={2019}}
+    </p>
+</div>
+
+
+
+</body></html>
